@@ -13,6 +13,6 @@ app.listen(3005, () => {
 app.get("/:nome", (req, res) => {
   const { nome } = req.params;
   res.status(200).json({
-    mensagem: `Lucas Antunis${nome}!`
+    mensagem: `Lucas Antunis e higor commit${nome}!`
   });
 });
